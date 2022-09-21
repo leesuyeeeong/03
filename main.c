@@ -3,21 +3,20 @@
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
-	char text;
 int main()
 {
 	int num1, num2;
-	printf("ï¿½ï¿½ï¿½Ú¸ï¿½ ï¿½Ô·ï¿½ï¿½Ï¼ï¿½ï¿½ï¿½ : ");
+	printf("ºÐÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
 	scanf_s("%d", &num1);
-	printf("ï¿½Ð¸ï¿½ ï¿½Ô·ï¿½ï¿½Ï¼ï¿½ï¿½ï¿½ : ");
+	printf("ºÐ¸ð¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
 	scanf_s("%d", &num2);
 	
 	if (num2 != 0){
 		if (num1 % num2){
-			printf("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ %d / %d = %f\nï¿½Ô´Ï´ï¿½.", num1, num2, num1 / (float)num2);
+			printf("³ª´©±âÀÇ °á°ú´Â %d / %d = %f\nÀÔ´Ï´Ù.", num1, num2, num1 / (float)num2);
 	
 		}else{
-			printf("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ %d / %d = %d\nï¿½Ô´Ï´ï¿½.", num1, num2, num1/num2);
+			printf("³ª´©±âÀÇ °á°ú´Â %d / %d = %d\nÀÔ´Ï´Ù.", num1, num2, num1/num2);
 		}
 	} 
 	return 0;	
